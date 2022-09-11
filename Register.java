@@ -10,7 +10,6 @@ public class Register {
 	public void register() {
 		
 	}
-	//Adarsh
 
 	public int getrNo() {
 		return rNo;
