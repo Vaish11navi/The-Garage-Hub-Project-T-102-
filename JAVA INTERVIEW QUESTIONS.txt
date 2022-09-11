@@ -1,0 +1,125 @@
+------------------------------------------------NOTES-------------------------------------------------
+
+
+1.)WHAT IS JAVA FEATURES..?
+ANSWER-https://www.studytonight.com/java/features-of-java.php
+
+2.)WHAT IS JDK/JRE..?
+ANSWER-https://www.geeksforgeeks.org/difference-between-jdk-and-jre-in-java/#:~:text=DEFINITION,designed%20to%20execute%20Java%20programs.
+
+3.)WHAT IS CLASS LOADER..?
+ANSWER-https://www.geeksforgeeks.org/classloader-in-java/
+
+4.)WHAT IS BYTECODE..?
+=ANSWERhttps://www.javatpoint.com/java-bytecode
+
+5.)WHAT IS CLASS..?
+ANSWER-https://www.javatpoint.com/object-and-class-in-java
+
+6.)WHAT IS OBJECT..?
+https://www.javatpoint.com/object-and-class-in-java
+
+7.)HOW TO CREATE OBJECT..?
+https://www.javatpoint.com/how-to-create-object-in-java
+
+8.)DIFFERENT TYPES OF COMPUTER MEMORY..?(HEAP,STACK,CACHE)
+https://www.javatpoint.com/stack-vs-heap-java
+
+9.)WHAT IS ACCESS SPECIFIER..?
+https://www.geeksforgeeks.org/access-specifiers-for-classes-or-interfaces-in-java/
+
+10.)WHAT IS KEYWORD USE OF THIS KEYWORD..?
+https://www.w3schools.com/java/ref_keyword_this.asp#:~:text=The%20this%20keyword%20refers%20to,a%20method%20or%20constructor%20parameter).&text=Invoke%20current%20class%20constructor
+
+11.)WHAT IS FUNCTIIN OVERLOADING..?
+https://www.educba.com/function-overloading-in-java/
+
+12.)WHAT IS VARARGS..?(VARIABLE ARGUMENTS)
+https://www.geeksforgeeks.org/variable-arguments-varargs-in-java/#:~:text=Variable%20Arguments%20(Varargs)%20in%20Java%20is%20a%20method%20that%20takes,a%20variable%20number%20of%20arguments.
+
+13.)WHAT IS STATIC CONCEPTS..?
+https://www.javatpoint.com/static-keyword-in-java
+
+14.)WHAT IS WRAPPER CLASS..?
+https://www.geeksforgeeks.org/wrapper-classes-java/
+
+15.)WHAT IS INSTANCE VARIABLE..?
+https://www.tutorialspoint.com/Instance-variables-in-Java
+
+16.)WHAT IS CONSTRUCTORS AND THEIR TYPES..?
+https://www.javatpoint.com/java-constructor
+
+17.)WHAT IS ENCAPSULATION..?
+https://www.geeksforgeeks.org/encapsulation-in-java/
+
+18.)WHAT IS ABSTRACTION..?
+https://techvidvan.com/tutorials/abstraction-in-java/#:~:text=In%20Java%2C%20Data%20Abstraction%20is,of%20communicating%20with%20other%20objects).
+
+19.)WHAT IS POLYMORPHISM..?
+https://www.geeksforgeeks.org/polymorphism-in-java/
+
+20.)WHAT IS ASSOCIATION..?
+https://www.edureka.co/blog/association-in-java/#:~:text=Association%20in%20Java%20is%20a,and%20many%2Dto%2Dmany.
+
+21.)WHAT IS AGREGATION..?
+https://www.thoughtco.com/aggregation-2033995#:~:text=Aggregation%20in%20Java%20is%20a,have%20ownership%20of%20that%20class.
+
+22.)WHAT IS COMPOSITION..?
+https://www.geeksforgeeks.org/composition-in-java/#:~:text=The%20composition%20is%20a%20design,implement%20a%20has%2Da%20relationship.&text=The%20composition%20is%20achieved%20by,then%20it%20is%20called%20composition.
+
+23.)WHAT IS GENRALIZATION..?
+https://www.geeksforgeeks.org/oops-generalization-as-extension-and-restriction-using-java/#:~:text=Generalization%20is%20the%20process%20of,are%20a%20type%20of%20superclass.
+
+24.)DIFFERENCE BETWEEN ABSTRACT CLASS AND INTERFACE..?
+https://www.javatpoint.com/difference-between-abstract-class-and-interface
+
+25.)WHAT IS SUPER KEYWORD AND FINAL KEYWORD..?
+https://www.w3schools.in/java-tutorial/super-final-keywords/#:~:text=Super%20is%20a%20keyword%20of,called%20by%20the%20keyword%20super.
+
+26.)METHODS OF OBJECT CLASS..?
+https://www.javatpoint.com/object-class
+
+27.)WHAT IS GARBAGE 
+https://www.geeksforgeeks.org/garbage-collection-java/#:~:text=Garbage%20collection%20in%20Java%20is,Machine%2C%20or%20JVM%20for%20short.&text=The%20garbage%20collector%20finds%20these,them%20to%20free%20up%20memory.
+
+28.)DIFFERENCE BETWEEN UNCHECK AND CHECK EXCEPTION..?
+https://www.w3schools.in/java-questions-answers/difference-between-checked-and-unchecked-exceptions-in-java/
+
+29.)USE OF TRY CACHE FINALLY THROW AND THROWS..?
+https://www.geeksforgeeks.org/try-catch-throw-and-throws-in-java/
+-----------------------------------------------------------------------------------THREAD CONCEPT--------------------------------------------------------------------------------------------
+30.)What is Thread..?
+31.)What Is lifecycle Of thread..?
+32.)HOW MANY TYPES ARE THERE TO CREATE A THREAD..?
+33.)Methods of thread class..?
+34.)Two Ways to create a thread..?
+35.)What is Synchronization..?
+36.)What is interthread communication or consumerproducer model..?
+37)What Are Thread Priorities..?
+38.)What is Deadlock..?
+39.)What is HashSet And Treeset..?
+--->Tree set is sorted and unique data(compareable is must) and HashSet(Hashcode and equals method is must to remove duplicate data) is random order and unique hashset is faster the treeset.	
+comapre to is used to check equality and order of the treeset.eg-employee implements comparaeable
+{
+ 	public int compareTo(Employee o)
+{
+	if(this.getEmpid()>o.getEmpId())
+{
+	return 1;
+}
+	else if (this.getEmpId()<o.getEmpId()
+	{
+		RETURN -1;
+	}
+ else
+{
+	return 0;
+}
+
+
+		
+}
+}
+}
+
+Hashset-It is recommended to use equals and hashcode method to check the equality of the two objects. 
